@@ -6,14 +6,14 @@ authors = ["remigio furini <remifurini@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-django = "4.0.6"
-python-dotenv = "^1.0.1"
-mysqlclient = "^2.2.4"
+python = "3.10"
+django = "4.2.13"
+python-dotenv = "1.0.1"
+mysqlclient = "2.2.4"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.4.2"
+black = "24.4.2"
 
 [build-system]
 requires = ["poetry-core"]
