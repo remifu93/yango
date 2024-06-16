@@ -34,6 +34,7 @@ DEBUG = bool(os.getenv("DEBUG", False))
 ALLOWED_HOSTS = [
     "remif93.pythonanywhere.com",
     "127.0.0.1",
+    "localhost",
 ]
 
 
